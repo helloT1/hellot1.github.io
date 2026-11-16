@@ -1,4 +1,4 @@
-/* @font-face kept for desktop browsers; DSi will safely ignore it */
+
 @font-face {
   font-family: 'wiiu';
   src: url('/assets/nintendo_NTLG-DB_002.ttf') format('truetype');
@@ -15,7 +15,7 @@ body {
   background-position: top left;
   background-repeat: repeat;
   background-attachment: fixed;
-  color: #323232;
+  color: #fff;
   cursor: url('data:image/png;base64,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') 0 0, auto;
 }
 
@@ -35,9 +35,9 @@ body {
 }
 
 .mn {
-  background-color: #000000; /* Solid fallback for Opera 9.5 (DSi) */
+  background-color: #000000;
   background-color: rgba(0, 0, 0, 0.67);
-  border: 1px solid #444444; /* Helps define box edges on DSi where border-radius is ignored */
+  border: 1px solid #444444;
   padding: 14px;
   border-radius: 12px;
   max-width: 600px;
@@ -80,7 +80,7 @@ body {
 
 .ok {
   font-size: 12px;
-  color: #bbbbbb; /* Fallback since Opera 9.5 opacity can look muddy on DSi LCDs */
+  color: #bbbbbb;
   opacity: 0.67;
   display: block;
   margin-bottom: 6px;
